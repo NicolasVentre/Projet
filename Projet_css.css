@@ -1,0 +1,41 @@
+/*Creation of a box to delimit the coordinates of the content of the cv */
+.coordonnees
+{
+	float: left;
+	border: 2px solid #000;
+	padding: 8px 12px;
+	background-image: linear-gradient(360deg, #ccc, #fff 60%, #fefefe);
+}
+
+/*Creation of box to delimit the content of the coordinates */
+.contenu
+{
+	float: left;
+	border: 2px solid #000;
+	padding: 8px 12px;
+	background-image: linear-gradient(310deg, #ccc, #fff 70%, #fefefe);
+}
+
+/*Coloring tags */
+
+h1
+{
+	text-align: center;
+}
+
+h3
+{
+	color: red;
+}
+
+strong
+{
+	color: blue;
+}
+
+/*Others tags*/
+
+body
+{
+	font-family: "Comic Sans MS";
+}
